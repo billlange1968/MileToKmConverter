@@ -9,7 +9,8 @@ def button_clicked():
 
 window = Tk()
 window.title("Mile to Km Converter")
-window.minsize(width=300, height=200)
+window.config(padx=20,pady=20)
+#window.minsize(width=300, height=200)
 
 # Label
 lblMileLbl = Label(text="Miles", padx=10, pady=10)
